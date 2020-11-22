@@ -14,6 +14,8 @@ for ease of access create an alias
 - reload the profile
 ![Reload profile](images/reload%20profile.png)
 
+- do the same for .zprofile
+
 # hide the folder
 hide the folder with 'mv simple-github .simple-github' so mere mortals cannot see it
 ![Invisible](images/invisible%20for%20mortals.png)
