@@ -130,7 +130,7 @@ class SimpleGithub:
                 else:
                     self.chosen_repo = int(inp) - 1
                     print()
-                    print(f'Chosen repo {self.repos[i]}')
+                    print(f'Chosen repo {self.repos[int(inp) - 1]}')
             except:
                 pass
 
