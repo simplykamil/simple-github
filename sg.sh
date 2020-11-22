@@ -1,1 +1,1 @@
-python .simple-github/main.py
+python main.py
