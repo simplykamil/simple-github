@@ -128,7 +128,7 @@ class SimpleGithub:
                 elif not inp.isdigit() or int(inp) not in range(1, len(self.repos) + 1):
                     print('You need to choose a repo')
                 else:
-                    self.chosen_repo = i
+                    self.chosen_repo = int(inp) - 1
                     print()
                     print(f'Chosen repo {self.repos[i]}')
             except:
@@ -136,6 +136,7 @@ class SimpleGithub:
 
         if self.should_quit:
             print('See ya')
+            print()
             sys.exit(1)
 
     def clone_chosen_repo(self):
